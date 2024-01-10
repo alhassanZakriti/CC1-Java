@@ -1,0 +1,142 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10em 0px;
+    align-items: center;
+    padding: 10px 20px;
+    height: 3em;
+    top: 0;
+    background-color: white;
+    z-index: 2;
+    margin: 0px auto;
+    border: 1px solid rgba(0, 0, 0, 0.062);
+     position: fixed;
+     width: 100%;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    all: unset;
+}
+a{
+    all: unset;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    margin-inline: 1em;
+    text-align: center;
+    height: 100;
+}
+a:hover{
+    color: #3a0ca3;
+}
+.logo{
+    font-size: 1em;
+    font-weight: 700;
+    color: #3a0ca3;
+    margin-right: 1em;
+    cursor: pointer;
+}
+.logo span{
+    color: #ff6b6b;
+}
+.container{
+    margin-top: 6em !important;
+    width: 920px;
+    margin: 0px auto;
+}
+input{
+
+    width: 100%;
+    padding: 10px 20px;
+    border: 1px solid rgba(0, 0, 0, 0.062);
+    border-radius: 10px;
+    outline: none;
+    margin-block: 1em;
+
+}
+
+select{
+
+    width: 100%;
+    padding: 10px 20px;
+    border: 1px solid rgba(0, 0, 0, 0.062);
+    border-radius: 10px;
+    outline: none;
+    margin-block: 1em;
+
+}
+
+.btn{
+    all: unset;
+    padding: 10px 20px;
+    background-color: #3a0ca3;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    margin-block: .5em;
+}
+
+th{
+    border-bottom: 2px solid rgba(0, 0, 0, 0.16);
+
+}
+table{
+    width: 100%;
+}
+thread{
+    width: 100%;
+}
+.table-head{
+    background-color: #3a0ca3;
+    border-radius: 10px;
+    padding: 1em 2em;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.table-in{
+    padding: 1em 2em;
+    color: black;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.table-in td{
+    color: black !important;
+}
+.id{
+    width: 2vw;
+}
+.nom{
+    width: 10vw;
+}
+.service{
+    width: 10vw;
+}
+.date{
+    width: 10vw;
+}
+td{
+    text-align: left;
+}
+th{
+    text-align: left;
+}
